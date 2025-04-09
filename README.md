@@ -11,11 +11,11 @@ And... that's how this site was born!
 
 1. Enter your decisions into the input fields:
 
-![Input Box](images/input-box.png)
+![Input Box](public/inputs.png)
 
 2. Flip the coin and get the result:
 
-![Decision Result](images/result-decision.png)
+![Decision Result](public/decision.png)
 
 ## Features
 - Enter two decisions and flip a coin to decide.
