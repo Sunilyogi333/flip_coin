@@ -42,12 +42,12 @@ export default function Home() {
       {(showCoin || result) && (
         <div className="flex justify-center mt-4">
           <div
-            className={`coin w-20 h-20 bg-yellow-400 rounded-full border-4 border-yellow-600 shadow-lg flex items-center justify-center transition-all duration-500 ${
+            className={`coin w-24 h-24 bg-yellow-400 rounded-full border-4 border-yellow-600 shadow-lg flex items-center justify-center transition-all duration-500 ${
               showCoin ? 'animate-flip' : ''
             }`}
           >
             {result && (
-              <span className="text-green-600 text-lg font-semibold text-center">{result}</span>
+              <span className="text-white text-lg font-semibold text-center">{result}</span>
             )}
           </div>
         </div>
